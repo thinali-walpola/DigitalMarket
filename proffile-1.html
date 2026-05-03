@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Professional Layout</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+    <div class="navbar">
+
+
+        <div class="logo">
+            <i class="fa-solid fa-d" style="border: 5px solid #3337E8; border-radius: 3px; padding: 3px;"></i>DigiMarket
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Browse</a></li>
+            <li><a href="sell.html" >Sell</a></li>
+        </ul>
+
+        <div class="nav-icons">
+          <!-- SEARCH -->
+          <span>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </span>
+
+          <span>
+            <i class="fa-solid fa-circle-user"onclick="window.location.href='account.html'"></i>
+          </span>
+
+          <div class="auth-buttons">
+            <button class="login" onclick="window.location.href='profile.html'">Login</button>
+            <button class="signin"onclick="window.location.href='proffile-1.html'" >Sign in</button>
+          </div> 
+        </div>
+                      
+        
+      </div>
+</header>
+
+    <div class="login-container">
+        <form action="/submit-login" method="POST" class="login-form">
+            <i class="fa-solid fa-d" style="color: white; background: #14165C; padding: 10px;"></i>
+            <h2>Create an Account</h2>
+            <p>Join DigiMarket and start learning or selling today</p>
+            <div class="input-group">
+                <label for="fname">Full Name</label>
+                <input type="text" id="email" name="John Doe" placeholder="👤  John Doe" required>
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email Address</label>
+                <input type="text" id="email" name="you@gmail.com" placeholder="✉️ you@gmail.com" required>
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name=" At least 8 character" placeholder="🔒 At least 8 character" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="password">Confirm Password</label>
+                <input type="password" id="password" name="Repeat your password" placeholder="🔒 Repeat your password" required>
+            </div>
+            <label class="terms">
+                <input type="checkbox" required>I agree to the 
+                <a href="#">Terms of Service</a> and 
+                <a href="#">Privacy Policy</a>
+            </label>
+
+            <button type="submit" class="submit">Create Accountant</button>
+            <div class="form-footer">
+                <a href="proffile-1.html">Already have an account? Sign in</a>
+                <p>Note: This is a demo login. Use any email and password to access your account.</p>
+            </div>
+
+            <div class="bottom-container">
+                <div class="row">
+                    <div class="col">
+                        <a href="#" style="color:white; " class="btn" >Google</a>
+                    </div>
+
+                    <div class="col" style="border-left: 1px solid white;">
+                        <a href="#" style="color:white" class="btn" >GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</script>
+</body>
+</html>
