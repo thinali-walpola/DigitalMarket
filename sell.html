@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vendor Dashboard</title>
+
+<link rel="stylesheet" href="style-1.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header>
+    <div class="navbar">
+
+        <div class="logo">
+            <i class="fa-solid fa-d" style="border: 5px solid #3337E8; border-radius: 3px; padding: 3px;"></i>DigiMarket
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Browse</a></li>
+            <li><a href="sell.html" >Sell</a></li>
+        </ul>
+
+        <div class="nav-icons">
+          <!-- SEARCH -->
+          <span>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </span>
+
+          <span>
+            <i class="fa-solid fa-circle-user" onclick="window.location.href='account.html'"></i>
+          </span>
+
+          <div class="auth-buttons">
+            <button class="login"onclick="window.location.href='profile.html'">Login</button>
+            <button class="signin"onclick="window.location.href='proffile-1.html'" >Sign in</button>
+          </div> 
+        </div>
+                      
+        
+      </div>
+</header>
+
+<!-- MAIN -->
+<div class="main">
+
+  <!-- TOP -->
+  <div class="top-bar" style="">
+    <div>
+      <h2 style="font-size: 30px; font-weight: 700;">Vendor Dashboard</h2>
+      <p style="font-size:16px; color: gray; margin-top: 10px;">Manage your products and track your sales</p>
+    </div>
+
+    <button class="upload-btn">+ Upload Product</button>
+  </div>
+
+  <!-- TABS -->
+  <div class="tabs">
+    <span class="btn" onclick="window.location.href='sell.html'">Overview</span>
+    <span class="btn" onclick="window.location.href='product.html'">Products</span>
+    <span class="btn" onclick="window.location.href='sales.html'">Sales</span>
+  </div>
+
+  <!-- CARDS -->
+  <div class="box-container">
+
+    <div class="box">
+      <i class="fa-solid fa-dollar-sign"></i>
+      <h2>$12,450 <span class="growth">+12.5%</span></h2>
+      <p>Total Revenue</p>
+    </div>
+
+    <div class="box">
+      <i class="fa-solid fa-users"></i>
+      <h2>1,240 <span class="growth">+8.2%</span></h2>
+      <p>Customers</p>
+    </div>
+
+    <div class="box">
+      <i class="fa-solid fa-box"></i>
+      <h2>320 <span class="growth">+5.1%</span></h2>
+      <p>Products</p>
+    </div>
+
+    <div class="box">
+      <i class="fa-solid fa-chart-line"></i>
+      <h2>850 <span class="growth">+9.3%</span></h2>
+      <p>Sales</p>
+    </div>
+
+  </div>
+
+  <!-- TABLE -->
+  <div class="report-container">
+      
+    <div class="content-1">
+      <p style="font-size:20px; font-weight:700;padding-bottom: 45px;">Sales History</p>
+
+      <table>
+        <tr style="font-size: 15px;">
+          <th>Product</th>
+          <th>Buyer</th>
+          <th>Amount</th>
+          <th>Date</th>
+        </tr>
+
+        <tr style="font-size: 15px;">
+          <td>Web Dev Bootcamp</td>
+          <td>John</td>
+          <td>$89</td>
+          <td>2026-03-30</td>
+        </tr>
+
+        <tr style="font-size: 15px;">
+          <td>JavaScript Course</td>
+          <td>Jane</td>
+          <td>$59</td>
+          <td>2026-03-29</td>
+        </tr>
+
+        <tr style="font-size: 15px;">
+          <td>UI/UX Design</td>
+          <td>Mike</td>
+          <td>$79</td>
+          <td>2026-03-28</td>
+        </tr>
+      </table>  
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer" id="footer">
+  <div>
+    <h2>Digi Market</h2>
+    <p>The global marketplace for digital products, courses, and e-books.</p>
+  </div>
+
+  <div>
+    <h2 style="margin-left: 36px;">For Buyers</h2>
+    <ul>
+      <li><a href="#">Browse Products</a></li>
+      <li><a href="#">My Library</a></li>
+      <li><a href="#">Help Center</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <h2 style="margin-left: 36px;">For Sellers</h2>
+    <ul>
+      <li><a href="#">Seller Dashboard</a></li>
+      <li><a href="#">Seller Guide</a></li>
+      <li><a href="#">Pricing</a></li>
+      
+    </ul>
+  </div>
+
+  <div>
+    <h2 style="margin-left: 36px;">Company</h2>
+    <ul>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Terms of Service</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+      
+    </ul>
+  </div>
+
+  </div>
+</div>
+<div class="footer-bottom">Copyright © 2026 Disansa Web.
+    All Rights Reserved.
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

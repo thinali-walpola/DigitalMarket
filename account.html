@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Professional Layout</title>
+<link rel="stylesheet" type="text/css" href="style-2.css">
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+    <div class="navbar">
+
+
+        <div class="logo">
+            <i class="fa-solid fa-d" style="border: 5px solid #3337E8; border-radius: 3px; padding: 3px;"></i>DigiMarket
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Browse</a></li>
+            <li><a href="sell.html" >Sell</a></li>
+        </ul>
+
+        <div class="nav-icons">
+          <!-- SEARCH -->
+          <span>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </span>
+
+          <span>
+            <i class="fa-solid fa-circle-user"onclick="window.location.href='account.html'"></i>
+          </span>
+
+          <div class="auth-buttons">
+            <button class="login" onclick="window.location.href='profile.html'">Login</button>
+            <button class="signin"onclick="window.location.href='proffile-1.html'" >Sign in</button>
+          </div> 
+        </div>
+                      
+        
+      </div>
+</header>
+
+
+<div class="container">
+
+  <div class="sidebar-wrapper">
+    <aside id="sidebar">
+      <div class="sidebar-content">
+        <img src="assets/images/download.jpg">
+        <p>John Doe</p>
+        <p>john.doe@example.com</p>
+      </div>
+
+      <div class="sidebar-content-nav">
+        <p onclick="window.location.href='account.html'">My Library</p>
+        <p>Profile</p>
+        <p>Security</p>
+        <p>Biling</p>
+      </div>
+      
+      <button class="be-btn">Become Vendor</button>
+    </aside>
+  </div>
+
+<main>
+  <div class="header-sec">
+    <h2>My Account</h2>
+    <p>Manage your profile and purchased content</p>
+  </div>
+  
+  <section>
+    <h2>My Library</h2>
+    <p>Access all your purchased courses and e-books</p>
+  </section>
+
+  <div class="products">
+
+    <!-- CARD -->
+    <div class="card">
+
+      <div class="card-img">
+        <img src="assets/images/photo-1516321318423-f06f85e504b3.jpg">
+
+        <div class="overlay">
+          <div class="text">Continue Learning</div>
+        </div>
+      </div>
+
+      <div class="card-body" onclick="window.location.href='#'">
+        <h2>Complete Web Development Bootcamp 2026</h2>
+        <p class="desc">Purchased: 3/15/2026</p>
+
+        <div class="progress-text">
+          <span>Progress</span>
+          <span>45%</span>
+        </div>
+
+        <div class="progress-bar">
+          <div class="progress" style="width:45%"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+<!-- CARD -->
+    <div class="card">
+
+      <div class="card-img">
+        <img src="assets/images/photo-1561070791-2526d30994b5.jpg">
+
+        <div class="overlay">
+          <div class="text">Continue Learning</div>
+        </div>
+      </div>
+
+      <div class="card-body" onclick="window.location.href='#'">
+        <h2>UI/UX Design Masterclass</h2>
+        <p class="desc">Purchased: 3/15/2026</p>
+
+        <div class="progress-text">
+          <span>Progress</span>
+          <span>10%</span>
+        </div>
+
+        <div class="progress-bar">
+          <div class="progress" style="width:10%"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+<!-- CARD -->
+    <div class="card">
+
+      <div class="card-img">
+        <img src="assets/images/photo-1526374965328-7f61d4dc18c5.jpg">
+
+        <div class="overlay">
+          <div class="text">Continue Learning</div>
+        </div>
+      </div>
+
+      <div class="card-body" onclick="window.location.href='#'">
+        <h2>Python for Data Science</h2>
+        <p class="desc">Purchased: 2/28/2026</p>
+
+        <div class="progress-text">
+          <span>Progress</span>
+          <span>45%</span>
+        </div>
+
+        <div class="progress-bar">
+          <div class="progress" style="width:45%"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+<!-- CARD -->
+    <div class="card">
+
+      <div class="card-img">
+        <img src="assets/images/photo-1432888498266-38ffec3eaf0a.png">
+
+        <div class="overlay">
+          <div class="text">Continue Learning</div>
+        </div>
+      </div>
+
+      <div class="card-body" onclick="window.location.href='#'">
+        <h2>The Art of Digital Marketing</h2>
+        <p class="desc">Purchased: 3/10/2026</p>
+
+        <div class="progress-text">
+          <span>Progress</span>
+          <span>65%</span>
+        </div>
+
+        <div class="progress-bar">
+          <div class="progress" style="width:65%"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</main>
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer" id="footer">
+  <div>
+    <h2>Digi Market</h2>
+    <p>The global marketplace for digital products, courses, and e-books.</p>
+  </div>
+
+  <div>
+    <h2 style="margin-left: 36px;">For Buyers</h2>
+    <ul>
+      <li><a href="#">Browse Products</a></li>
+      <li><a href="#">My Library</a></li>
+      <li><a href="#">Help Center</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <h2 style="margin-left: 36px;">For Sellers</h2>
+    <ul>
+      <li><a href="#">Seller Dashboard</a></li>
+      <li><a href="#">Seller Guide</a></li>
+      <li><a href="#">Pricing</a></li>
+      
+    </ul>
+  </div>
+
+  <div>
+    <h2 style="margin-left: 36px;">Company</h2>
+    <ul>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Terms of Service</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+      
+    </ul>
+  </div>
+
+  </div>
+</div>
+<div class="footer-bottom">Copyright © 2026 Disansa Web.
+    All Rights Reserved.
+</div>
+
+</body>
+</html>
